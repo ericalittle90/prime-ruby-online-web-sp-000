@@ -1,6 +1,7 @@
 def prime?(num)
   if num > 1 && num % num == 0
     then true
-  else false
+  elsif num % num + 1 == 0
+    then false
 end
 end

@@ -6,6 +6,7 @@ elsif (2..num-1).each do |n|
   return false
   end
 end
+end
 else
   return true
 end
